@@ -27,5 +27,17 @@ Step 4: compute number of mile without refueling = fuel tank capacity * mile per
 Step 5: Print number of mile without refueling
 Step 6: Stop.
 
+3. QUESTION NUMBER 3 CONVERTING UPPER CASE TO LOWER CASE
+   PROBLEM ANALYSIS
+   input:
+   output:
+   process:
+   ALGORITHM USING PSEUDOCODE
+   Step1: start
+Step2:
+Step3:
+Step4:
+Step5:
+
 
    
