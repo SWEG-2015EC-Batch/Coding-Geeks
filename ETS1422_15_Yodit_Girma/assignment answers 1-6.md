@@ -1,24 +1,31 @@
 1.QUESTION NUMBER 1 FINDING BMI
-    Problem Description
-   #To calculate BMI of a person we need to get the height and weight of a person then we can calculate his or her BMIby dividing the weight of a person by his or her height square.
- Problem analysis 
+PROBLEM ANALYSIS
 input: Height, weight
 output: BMI
 process:#Variable creation(what and how?)
         #Read input(how?)
         #Compute BMI(how)
         #Display output
- design the program
-   #Variable creation(what and how?):
-   float person_height,person_weight,person_BMI;
-  #Read input(how?)
-   cout<<"enter your height:";
-   cin>>person_height;
-   cout<<"enter your weight:";
-   cin>>person_weight;
-  #Compute BMI(how)
-BMI= (person_weight) / (person_height*person_height)
- #Display output
-cout<<"your person_BMI is;"<<BMI<<endl;
+ALGORITHM USING PSEUDOCODE
+Step1: start
+Step2: read height and weight
+Step3: calculate BMI=(weight)/(height*height)
+Step4: print BMI
+Step5: end.
+
+
+2. QUESTION NUMBER 2 FINDING MILES WITHOUT REFUELING
+   PROBLEM ANALYSIS
+   input: fuel tank capacity,mile per gallon
+   output: number of mile without refueling
+   process: number of without refueling = fuel tank capacity * mile per gallon
+   ALGORITHM USING PSEUDOCODE
+Step 1: Start
+Step 2: Read Fuel_Tank_Capacity
+Step 3: Read mile per gallon
+Step 4: compute number of mile without refueling = fuel tank capacity * mile per gallon
+Step 5: Print number of mile without refueling
+Step 6: Stop.
+
 
    
