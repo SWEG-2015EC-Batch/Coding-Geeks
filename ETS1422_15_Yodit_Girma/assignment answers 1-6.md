@@ -1,13 +1,14 @@
-1. Problem Description
+1.QUESTION NUMBER 1 FINDING BMI
+    Problem Description
    #To calculate BMI of a person we need to get the height and weight of a person then we can calculate his or her BMIby dividing the weight of a person by his or her height square.
-2. Problem analysis 
+ Problem analysis 
 input: Height, weight
 output: BMI
 process:#Variable creation(what and how?)
         #Read input(how?)
         #Compute BMI(how)
         #Display output
-3. design the program
+ design the program
    #Variable creation(what and how?):
    float person_height,person_weight,person_BMI;
   #Read input(how?)
