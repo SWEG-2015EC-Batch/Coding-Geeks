@@ -72,7 +72,7 @@ pseudo code
 
 #3.write a program that coverts  letter entered from keyboard to its uppercase of lowercase equivalent (hint :- use the function defined in ctype.h library header file).
 Problem description 
-# To convert a letter either uppercase to lowercase, we are going to have use<ctype.h> library. So, first we have to get both lowercase and uppercase letters then to convert upper to lower we use tolower(uppercase) and from lower to upper we use toupper(lowercase). 
+
  Problem analysis 
 •	Input: uppercase letters, lowercase
 •	output: lower and upper case
