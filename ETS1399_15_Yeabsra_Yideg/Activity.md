@@ -38,6 +38,8 @@ step4. Print BMI
 
 step5. End
 
+![](https://user-images.githubusercontent.com/149189296/283982401-9096f7ff-d60d-405c-ad81-f8af46a2a8ee.png)
+
 
 2.
 problem description 
@@ -80,6 +82,9 @@ step3. Compute miles M=c*mpg
 step4. Print miles(M)
 
 step5. End
+
+![](https://user-images.githubusercontent.com/149189296/283982499-69cb5259-81cf-4cdc-9c36-2e719ec0910c.png)
+
 
 3.
 Problem description 
@@ -133,6 +138,9 @@ Step7: Display the converted letter.
 
 Step8: End
 
+![](https://user-images.githubusercontent.com/149189296/283987436-290d6821-6639-40d1-ba60-d411059cfe70.png)
+
+
 4.
 problem description
 
@@ -177,6 +185,9 @@ Step5: Calculate the result of the expression XY.
 Step6: Display the result to the user.
 
 Step7: End the program.
+
+![](https://user-images.githubusercontent.com/149189296/283982550-431a6d44-7e5b-4e5f-a3f6-433177e1f5c6.png)
+
 
 5.
 problem description 
@@ -242,7 +253,7 @@ Step8. Display employeeName, grossSalary, netSalary, and bonusPayment
 
 Step9. End
 
-![https://user-images.githubusercontent.com/149189296/283986569-05f446d5-6904-4314-8708-237ffa03f334.png]
+![](https://user-images.githubusercontent.com/149189296/283986569-05f446d5-6904-4314-8708-237ffa03f334.png)
 
 6.
 problem description
@@ -301,3 +312,6 @@ TT=S/TR
 step3. Print transmission time in second, minutes, hours, and days
 
 step4. End
+
+![](https://user-images.githubusercontent.com/149189296/283986829-d5d17736-6e22-46be-8f4d-422caad96191.png)
+
