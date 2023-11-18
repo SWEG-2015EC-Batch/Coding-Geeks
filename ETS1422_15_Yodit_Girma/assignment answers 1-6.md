@@ -49,12 +49,14 @@ cin>>miles_per_gallon;
 miles= (capacity)*(miles_per_gallons)
 #Display output:
 cout<<" miles_derivable is: "<<miles<<endl;
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/69cb5259-81cf-4cdc-9c36-2e719ec0910c)
+
 
 
 
 3, //ANSWER FOR QUESTION NUMBER 3
  . Problem description 
-# To convert a letter either uppercase to lowercase, we are going to have use<ctype.h> library. So, first we have to get both lowercase and uppercase letters then to convert upper to lower we use tolower(uppercase) and from lower to upper we use toupper(lowercase). 
+#To convert a letter either uppercase to lowercase, we are going to have use<ctype.h> library. So, first we have to get both lowercase and uppercase letters then to convert upper to lower we use tolower(uppercase) and from lower to upper we use toupper(lowercase). 
 . Problem analysis 
 Input: uppercase letters, lowercase
 output: lower and upper case
@@ -76,6 +78,7 @@ if (islower(input))
    cout << "The lowercase equivalent is: " << (char)tolower(input) << endl;
 #Display output:
   cout << "Invalid input. Please enter a letter." << endl;
+  
    
 
 
@@ -103,6 +106,8 @@ cin>>y;
 #Compute X^Y(how?)
 int power=pow( X, Y)
 cout<< " power of a given number is: "<<power;
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/431a6d44-7e5b-4e5f-a3f6-433177e1f5c6)
+
 
 
 5, //ANSWER FOR QUESTION NUMBER 5
