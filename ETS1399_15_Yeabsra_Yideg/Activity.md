@@ -26,6 +26,17 @@ BMI= (person_weight) / (person_height*person_height)
 #Display output
 cout<<"your person_BMI is: "<<BMI<<endl;
 
+pseudo code
+
+step1. Start
+
+step2. Read height, weight
+
+step3. Compute BMI, BMI=weight/(height*height)
+
+step4. Print BMI
+
+step5. End
 
 2.
 problem description 
