@@ -68,6 +68,17 @@ miles= (capacity)*(miles_per_gallons)
 #Display output:
 cout<<" miles_derivable is: "<<miles<<endl;
 
+pseudocode
+
+step1. Start
+
+step2. Read capacity(c), miles per gallon(mpg)
+
+step3. Compute miles M=c*mpg
+
+step4. Print miles(M)
+
+step5. End
 
 3.
 Problem description 
@@ -129,6 +140,21 @@ cin>>y;
 int power=pow( X, Y)
 cout<< " power of a given number is: "<<power;
 
+pseudocode
+
+Step1: Start the program
+
+Step2: Declare variables X, Y, and result as integers.
+
+Step3: Enter the value of X and Y
+
+Step4: Read the value of X and Y from the keyboard and store it in the X and Y variables respectively.
+
+Step5: Calculate the result of the expression XY.
+
+Step6: Display the result to the user.
+
+Step7: End the program.
 
 5.
 problem description 
@@ -175,14 +201,23 @@ cout << "Employee's Name: " << full_name << endl;
     cout << "Bonus Payment: " << bonus_payment << endl;
 
 PSUEDOCODE:
+
 Step1. Start
+
 Step2. Read: employeeName, weeklyWorkingHours, bonusRatePerHour, baseSalary,
+
 Step3. Calculate gross_salary = (weekly_hours * base_salary) + (bonus_rate * weekly_hours)
+
 Step4. Calculate pension_deduction = 0.05 * gross_salary
+
 Step5. Calculate   tax_deduction = 0.15 * gross_salary
+
 Step6. Calculate net_salary = gross_salary - (pension_deduction + tax_deduction)
+
 Step7. Calculate bonus_payment = bonus_rate * weekly_hours
+
 Step8. Display employeeName, grossSalary, netSalary, and bonusPayment
+
 Step9. End
 
 6.
@@ -227,14 +262,18 @@ transmission time in Hours: 121
 transmission time in Days: 5
 
 pseudocode 
+
 step1. start
 Read  file size in bytes(S) , Transmission rate(TR) =960 char
- step2. Compute transmission time 
+
+step2. Compute transmission time 
 Transmission time(TT)=file size/ transmission rate
 TT=S/TR
     seconds=file_size/transmission_rate;
             minutes=seconds/60;
               hours=minutes/60;
                 days=hours/24;  
+
 step3. Print transmission time in second, minutes, hours, and days
+
 step4. End
