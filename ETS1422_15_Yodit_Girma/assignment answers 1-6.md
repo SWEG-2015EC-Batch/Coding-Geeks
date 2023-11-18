@@ -20,6 +20,7 @@ process:#Variable declaration(what and how?)
 BMI= (person_weight) / (person_height*person_height)
 #Display output
 cout<<"your person_BMI is: "<<BMI<<endl;
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/9096f7ff-d60d-405c-ad81-f8af46a2a8ee)
 
 
 
