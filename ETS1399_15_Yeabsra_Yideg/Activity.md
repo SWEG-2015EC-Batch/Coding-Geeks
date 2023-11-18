@@ -38,6 +38,7 @@ step4. Print BMI
 
 step5. End
 
+
 2.
 problem description 
 
@@ -240,6 +241,25 @@ Step7. Calculate bonus_payment = bonus_rate * weekly_hours
 Step8. Display employeeName, grossSalary, netSalary, and bonusPayment
 
 Step9. End
+
+Start
+
+Read employeeName, weekly WorkingHours, bonus RatePerHour, baseSalary
+
+Calculate gross salary = (weekly_hours* base salary) + (bonus_rate weekly_hours)
+
+Calculate pension_deduction = 0.05 gross_salary and Calculate tax _deduction 0.15*
+
+▼
+
+Calculate net salary gross_salary. (pension deduction + tax deduction)
+
+Calculate bonus_payment = bonus rate weekly hours
+
+Read employeeName, grossSalary, netSalary, and bonusPayment
+
+end
+
 
 6.
 problem description
