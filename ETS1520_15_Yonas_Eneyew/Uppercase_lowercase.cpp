@@ -1,18 +1,25 @@
 #include <iostream>
-#include <cmath>
+#include <cctype>
 
 int main() {
-    double base, exponent;
+    char inputChar;
 
-    cout << "Enter the value of X: ";
-    cin >> base;
+    
+    std::cout << "Enter a letter: ";
+    std::cin >> inputChar;
 
-    cout << "Enter the value of Y: ";
-    cin >> exponent;
 
-    double result = pow(base, exponent);
+    if (std::isalpha(inputChar)) {
+        // Convert to uppercase
+        char uppercaseChar = std::toupper(inputChar);
+        std::cout << "Uppercase equivalent: " << uppercaseChar << std::endl;
 
-    std::cout << "Result of " << base << "^" << exponent << " is: " << result << std::ndl;
+
+        char lowercaseChar = std::tolower(inputChar);
+        std::cout << "Lowercase equivalent: " << lowercaseChar << std::endl;
+    } else {
+        std::cout << "Please enter a valid letter." << std::endl;
+    }
 
     return 0;
 }
