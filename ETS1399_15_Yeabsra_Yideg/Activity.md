@@ -204,3 +204,16 @@ transmission time in Seconds: 436906
 transmission time in Minutes: 7281
 transmission time in Hours: 121
 transmission time in Days: 5
+
+pseudocode 
+step1. start
+Read  file size in bytes(S) , Transmission rate(TR) =960 char
+ step2. Compute transmission time 
+Transmission time(TT)=file size/ transmission rate
+TT=S/TR
+    seconds=file_size/transmission_rate;
+            minutes=seconds/60;
+              hours=minutes/60;
+                days=hours/24;  
+step3. Print transmission time in second, minutes, hours, and days
+step4. End
