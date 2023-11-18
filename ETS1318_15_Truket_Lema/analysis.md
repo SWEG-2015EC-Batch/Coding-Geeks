@@ -29,6 +29,8 @@ cout<<"your person_BMI is: "<<BMI<<endl;
 4.	Print BMI
 5.	End
         Flowchat
+![1111111111](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/b279244d-694e-4851-b239-4d5dcfa58c66)
+
 
 
 #2. Write a program that prompts the capacity in gallons of automobile fuel tank and the miles per gallons the automobile can be driven. The program outputs the number miles the automobile can be driven without refueling.
@@ -63,7 +65,9 @@ pseudo code
 4.	Print miles(M)
 5.	End
            Flowchart
-        Flowchat
+        
+![22222222222222222](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/3d881a66-f6c9-4b39-8191-ab5966ec8a90)
+
 
 
 #3.write a program that coverts  letter entered from keyboard to its uppercase of lowercase equivalent (hint :- use the function defined in ctype.h library header file).
@@ -103,10 +107,6 @@ if (islower(input))
 10.	     - If false, display an error message indicating that the entered character is not a letter.
 11.	Step7: Display the converted letter.
 12.	Step8: End
-
-
-
-
 
 Flowchart
 
