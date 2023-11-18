@@ -71,7 +71,7 @@ pseudo code
 
 
 #3.write a program that coverts  letter entered from keyboard to its uppercase of lowercase equivalent (hint :- use the function defined in ctype.h library header file).
-Problem description 
+Problem description:To convert a letter either uppercase to lowercase, we are going to have use<ctype.h> library. So, first we have to get both lowercase and uppercase letters then to convert upper to lower we use tolower(uppercase) and from lower to upper we use toupper(lowercase).
 
  Problem analysis 
 •	Input: uppercase letters, lowercase
@@ -101,30 +101,14 @@ if (islower(input))
 4.	Step4: Prompt the user to enter a letter.
 5.	Step5: Read the entered letter from the keyboard and store it in the variable.
 6.	Step6: Check if the entered letter is in uppercase using the isupper() function from ctype.h:
-7.	   - If true, convert the letter to lowercase using the tolower() function.
-8.	   - If false, check if the entered letter is in lowercase using the islower() function:
-9.	     - If true, convert the letter to uppercase using the toupper() function.
-10.	     - If false, display an error message indicating that the entered character is not a letter.
+7.	 If true, convert the letter to lowercase using the tolower() function.
+8. If false, check if the entered letter is in lowercase using the islower() function:
+9.	If true, convert the letter to uppercase using the toupper() function.
+10. If false, display an error message indicating that the entered character is not a letter.
 11.	Step7: Display the converted letter.
 12.	Step8: End
 
 Flowchart
-
-
-
-
-
-
-
-          Yes                                                       No  
-
-
-
-
-
-
-
-
 
 #4. write a program that find the result of expression x^y where the value of x and y are entered by the user.
 1.problem description
