@@ -190,4 +190,22 @@ transmission time in Minutes: 7281
 transmission time in Hours: 121
 transmission time in Days: 5
 
+flow chart for Q6
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/d5d17736-6e22-46be-8f4d-422caad96191)
+AND PSEUDOCODE FOR Q6
+pseudocode 
+1.  start
+Read  file size in bytes(S) , Transmission rate(TR) =960 char
+2.  Compute transmission time 
+Transmission time(TT)=file size/ transmission rate
+TT=S/TR
+           seconds = file_size / transmission_rate;
+            minutes = seconds / 60;
+              hours = minutes / 60;
+                days = hours / 24;  
+
+3.  Print transmission time in second, minutes, hours, and days
+
+4.  End
+
 
