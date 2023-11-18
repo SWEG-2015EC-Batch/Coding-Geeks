@@ -148,6 +148,8 @@ cout << "Employee's Name: " << full_name << endl;
     cout << "Gross Salary: " << gross_salary << endl;
     cout << "Net Salary: " << net_salary << endl;
     cout << "Bonus Payment: " << bonus_payment << endl;
+    ![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/05f446d5-6904-4314-8708-237ffa03f334)
+
 
 
     
