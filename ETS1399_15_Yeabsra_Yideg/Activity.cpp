@@ -15,7 +15,27 @@ cout<<"your personBMI is:"<<personBMI<<endl;
     return 0;
 }
 
+
 //QUESTION NUMBER 2 FINDING NUMBER OF MILES WITHOUT REFUELING
+#include<iostream>
+using namespace std;
+int main()
+{
+    float tank_Capacity, miles_Per_Gallon, miles;
+
+    // enter  the capacity of the fuel tank
+    cout << "Enter the capacity of the fuel tank in gallons: ";
+    cin >> tank_Capacity;
+
+    // enter miles per gallon the automobile can be driven
+    cout << "Enter the miles per gallon the automobile can be driven: ";
+    cin >> miles_Per_Gallon;
+    // miles the automobile can be driven without refueling 
+   miles = tank_Capacity * miles_Per_Gallon;
+    cout << "Miles : " << " miles " << endl;
+
+    return 0;
+}
 
 
 // QUESTION NUMBER 3 CONVERTING UPPER CASE TO LOWER CASE
@@ -41,6 +61,20 @@ int main() {
 
 
 //QUESTION NUMBER 4 CALCULATING X^Y*
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+ int X, Y;
+ cout<<" enter value for X= ";
+ cin>>X;
+ cout<<" enter value for Y=";
+ cin>>Y;
+ int power= pow(X,Y);
+ cout<<" power of the given number is "<<power<<endl;
+return 0;
+}
 
 
 //QUESTION NUMBBER 5 FINDING NET,GROSS SALARY AND BONUS PAYMENT
