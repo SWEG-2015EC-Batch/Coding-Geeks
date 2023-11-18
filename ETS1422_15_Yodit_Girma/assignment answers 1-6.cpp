@@ -12,6 +12,9 @@ cout<<"your personBMI is:"<<personBMI<<endl;
   return 0;
 }
 
+
+
+
 /*QUESTION NUMBER 2 FINDING NUMBER OF MILES WITHOUT REFUELING*/
 #include <iostream>
 using namespace std;
@@ -34,6 +37,9 @@ int main() {
 
     return 0;
 }
+
+
+
 
 /*QUESTION NUMBER 3 CONVERTING UPPER CASE TO LOWER CASE*/
 #include <iostream>
@@ -58,6 +64,8 @@ int main() {
 
 
 
+
+
 /*QUESTION NUMBER 4 CALCULATING X^Y*/
 #include<iostream>
 #include<math.h>
@@ -75,7 +83,9 @@ int main()
 }
 
 
-/*QUESTION NUMBBER 5 
+
+
+/*QUESTION NUMBBER 5 FINDING NET,GROSS SALARY AND BONUS PAYMENT*/
 #include <iostream>
 using namespace std;
 int main()
