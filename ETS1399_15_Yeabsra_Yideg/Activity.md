@@ -1,8 +1,10 @@
 1.
 Problem Description
+
 #To calculate BMI of a person we need to get the height and weight of a person then we can calculate his or her BMI by dividing the weight of a person by his or her height square.
 
 Problem analysis 
+
 input: Height, weight
 output: BMI
 process:#Variable declaration(what and how?)
@@ -11,6 +13,7 @@ process:#Variable declaration(what and how?)
         #Display output
 
 design the program
+
 #Variable declaration(what and how?)
 float person_height,person_weight,person_BMI;
   #Read input(how?)
@@ -26,9 +29,11 @@ cout<<"your person_BMI is: "<<BMI<<endl;
 
 2.
 problem description 
+
 #To calculate the number miles the automobile can be driven without refuelling we need to multiply the capacity in gallons of an automobile and miles per gallons the automobile can be driven to cancel out the gallons and find miles.
 
 problem analysis
+
 input: capacity in gallons, miles per gallons
 output: miles
 process: 
@@ -39,6 +44,7 @@ initializing the program
 #Display output
 
 Design the program
+
 variable declaration and initialization (what and how)
 float  capacity in gallons, miles_per_gallons, miles
 #Read input(how?)
@@ -54,9 +60,11 @@ cout<<" miles_derivable is: "<<miles<<endl;
 
 3.
 Problem description 
+
 #To convert a letter either uppercase to lowercase, we are going to have use<ctype.h> library. So, first we have to get both lowercase and uppercase letters then to convert upper to lower we use tolower(uppercase) and from lower to upper we use toupper(lowercase). 
 
 Problem analysis 
+
 Input: uppercase letters, lowercase
 output: lower and upper case
 process: 
@@ -66,6 +74,7 @@ process:
 #Display output
 
 Design program
+
 variable declaration and initialization (what and how)
 char input;
 #Read input(how?)
@@ -82,9 +91,11 @@ if (islower(input))
 
 4.
 problem description
+
 #To calculate the result of X raised to the power of Y, X is base and Y is exponent, x^y denotes the result of multiplying x by itself y times.
 
 problem analysis
+
 input: X, Y
 out put : the value of X^Y
 process:
@@ -95,6 +106,7 @@ initializing the program
 #Display output
 
 Design the program
+
 variable declaration and initialization (what and how)
 int X, Y, X^Y
 #Read input(how?)
@@ -109,10 +121,12 @@ cout<< " power of a given number is: "<<power;
 
 5.
 problem description 
+
 #The problem is to create a program that takes input for an employee's name, weekly working hours, bonus rate per hour, and base salary. The program then calculates the employee's gross salary, net salary, and bonus payment. It also needs to apply a pension rate of 5% and a tax rate of 15% to the gross salary.
 The program should output the employee's name, gross salary, net salary, and bonus payment.
 
 problem analysis
+
 input: employee name, weekly working hours, bonus rate per hour, and base salary.
 output: gross salary, net salary, bonus payment
 process :
@@ -123,6 +137,7 @@ initializing the program
 #Display output
 
 Design algorithm
+
 Variable declaration and initialization(what and how)
 string employee_name
 float weeklyWorkingHours, bonusRatePerHour, baseSalary, pensionRate = 0.05, taxRate = 0.15, grossSalary, netSalary, bonusPayment;
@@ -151,9 +166,11 @@ cout << "Employee's Name: " << full_name << endl;
 
 6.
 problem description
+
 To write a C++ program that can calculate the time required to send a file over a serial transmission line, the program should take the file size as input and then calculate the time it would take to transmit the entire file at a rate of 960 characters per second. Each character is equivalent to a byte.Since the file size can be quite large, such as 400MB, the program needs to account for the possibility that it may take several days to transmit the file.
 
 problem analysis
+
 input: file_size in bytes, constant transmission_rate
 output: transmission_time
 process:
@@ -164,6 +181,7 @@ initializing program
 #display output
 
 Design and algorithm
+
 Variable declaration and initialization(what and how)
 int file_size, transmission_time
 #read input(how)
