@@ -110,6 +110,27 @@ if (islower(input))
 #Display output:
   cout << "Invalid input. Please enter a letter." << endl;
 
+pseudocode 
+
+Step1: Start
+
+Step2: Include the ctype.h library header file.
+
+Step3: Declare a variable to store the entered letter.
+
+Step4: Prompt the user to enter a letter.
+
+Step5: Read the entered letter from the keyboard and store it in the variable.
+
+Step6: Check if the entered letter is in uppercase using the isupper() function from ctype.h:
+   - If true, convert the letter to lowercase using the tolower() function.
+   - If false, check if the entered letter is in lowercase using the islower() function:
+     - If true, convert the letter to uppercase using the toupper() function.
+     - If false, display an error message indicating that the entered character is not a letter.
+
+Step7: Display the converted letter.
+
+Step8: End
 
 4.
 problem description
