@@ -92,7 +92,9 @@ Step6: Check if the entered letter is in uppercase using the isupper() function 
 Step7: Display the converted letter.
 Step8: End
 
-  
+
+  ![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/290d6821-6639-40d1-ba60-d411059cfe70)
+
    
 
 
