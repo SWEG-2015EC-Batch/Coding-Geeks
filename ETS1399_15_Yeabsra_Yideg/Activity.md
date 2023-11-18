@@ -242,6 +242,7 @@ Step8. Display employeeName, grossSalary, netSalary, and bonusPayment
 
 Step9. End
 
+![https://user-images.githubusercontent.com/149189296/283986569-05f446d5-6904-4314-8708-237ffa03f334.png]
 
 6.
 problem description
