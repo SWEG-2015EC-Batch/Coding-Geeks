@@ -109,6 +109,8 @@ if (islower(input))
 12.	Step8: End
 
 Flowchart
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/65a12e2d-f65f-43d2-889f-7c1e03e34889)
+
 
 #4. write a program that find the result of expression x^y where the value of x and y are entered by the user.
 1.problem description
