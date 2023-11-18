@@ -59,18 +59,19 @@ int main() {
 
 
 /*QUESTION NUMBER 4 CALCULATING X^Y*/
-4, #include<iostream.h>
+#include<iostream>
 #include<math.h>
+using namespace std;
 int main()
 {
  int X, Y;
- cout<<" enter value for X ";
+ cout<<" enter value for X= ";
  cin>>X;
- cout<<" enter value for Y ";
+ cout<<" enter value for Y=";
  cin>>Y;
  int power= pow(X,Y);
- cout<<" power of the given number is "<<power;
- 
+ cout<<" power of the given number is "<<power<<endl;
+ return 0;
 }
 
 
