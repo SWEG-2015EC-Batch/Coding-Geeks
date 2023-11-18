@@ -163,6 +163,16 @@ cout << "Employee's Name: " << full_name << endl;
     cout << "Net Salary: " << net_salary << endl;
     cout << "Bonus Payment: " << bonus_payment << endl;
 
+PSUEDOCODE:
+Step1. Start
+Step2. Read: employeeName, weeklyWorkingHours, bonusRatePerHour, baseSalary,
+Step3. Calculate gross_salary = (weekly_hours * base_salary) + (bonus_rate * weekly_hours)
+Step4. Calculate pension_deduction = 0.05 * gross_salary
+Step5. Calculate   tax_deduction = 0.15 * gross_salary
+Step6. Calculate net_salary = gross_salary - (pension_deduction + tax_deduction)
+Step7. Calculate bonus_payment = bonus_rate * weekly_hours
+Step8. Display employeeName, grossSalary, netSalary, and bonusPayment
+Step9. End
 
 6.
 problem description
