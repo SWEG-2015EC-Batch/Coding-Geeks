@@ -143,8 +143,10 @@ cout<< " power of a given number is: "<<power;
 5.	Step5: Calculate the result of the expression X^Y.
 6.	Step6: Display the result to the user.
 7.	Step7: End the program.
+   
 Flow chart
 
+![444444444444444](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/a4b6a6ac-9fcd-45c8-a598-898f1017f134)
 
 #5. Design an algorithm and write to read an employee name weekly working hours, bonus rate per hour, and base salary and find the employees gross salary, net salary, and bonus payment. 
 (Hint: pension rate =5%, tax =15%)
@@ -194,8 +196,10 @@ cout << "Employee's Name: " << full_name << endl;
 7. Calculate bonus_payment = bonus_rate * weekly_hours
 8. Display employeeName, grossSalary, netSalary, and bonusPayment
 9. End
+    
 Flowchart
- 
+ ![555555555555555555555](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/9156ef15-75b2-407a-83ee-444cd095c853)
+
 #6. A serial transmission line can transmit 960 characters a second. Write a program that will calculate how long it takes to send a file, given a file size. Test your program on a 400mb(419,430,400 byte) file which may take days.
 1. problem description
 To write a C++ program that can calculate the time required to send a file over a serial transmission line, the program should take the file size as input and then calculate the time it would take to transmit the entire file at a rate of 960 characters per second. Each character is equivalent to a byte.Since the file size can be quite large, such as 400MB, the program needs to account for the possibility that it may take several days to transmit the file.
@@ -244,7 +248,9 @@ TT=S/TR
 
 4.	End 
 
+
 Flowchart
+![6666666666666](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149225623/e78c8db5-586c-4c59-aa78-a736903ee28a)
 
 
 
