@@ -117,3 +117,31 @@ int main()
     return 0;
 }
 
+
+
+
+
+/*QUESTION NUMBER 6 FINDING TRANSMISSION TIME IN SECOND,MINUTE,HOUR AND DAY*/
+#include<iostream>
+using namespace std;
+int main()
+
+{
+    int file_size, transmission_time;
+    int seconds, minutes, hours, days;
+ const int transmission_rate = 960; // characters per second
+  cout<<" enter the size of the file in bytes: ";
+ cin>>file_size;
+ transmission_time = file_size / transmission_rate;
+ seconds = file_size / transmission_rate;
+minutes = seconds / 60;
+hours = minutes / 60;
+days = hours / 24;
+   cout << "transmission time in Seconds: " << seconds << endl;
+    cout << "transmission time in Minutes: " << minutes << endl;
+    cout << "transmission time in Hours: " << hours << endl;
+    cout << "transmission time in Days: " << days << endl;
+
+    return 0;
+}
+
