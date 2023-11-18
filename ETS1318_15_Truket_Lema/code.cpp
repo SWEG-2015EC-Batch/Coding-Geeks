@@ -61,6 +61,8 @@ int main()
  cin>>Y;
  int power= pow(X,Y);
  cout<<" power of the given number is "<<power;
+return 0;
+}
 #5. Design an algorithm and write to read an employee name weekly working hours, bonus rate per hour, and base salary and find the employees gross salary, net salary, and bonus payment. (Hint: pension rate =5%, tax =15%)
 #include <iostream>
 using namespace std;
