@@ -36,4 +36,43 @@ int main() {
 }
 
 /*QUESTION NUMBER 3 CONVERTING UPPER CASE TO LOWER CASE*/
+#include <iostream>
+#include <ctype.h>
+using namespace std;
+
+int main() {
+    char input;
+    cout << "Enter a letter: ";
+    cin >> input;
+
+    if (islower(input)) {
+        cout << "The uppercase equivalent is: " << (char)toupper(input) << endl;
+    } else if (isupper(input)) {
+        cout << "The lowercase equivalent is: " << (char)tolower(input) << endl;
+    } else {
+        cout << "Invalid input. Please enter a letter." << endl;
+    }
+
+    return 0;
+}
+
+
+
+/*QUESTION NUMBER 4 CALCULATING X^Y*/
+4, #include<iostream.h>
+#include<math.h>
+int main()
+{
+ int X, Y;
+ cout<<" enter value for X ";
+ cin>>X;
+ cout<<" enter value for Y ";
+ cin>>Y;
+ int power= pow(X,Y);
+ cout<<" power of the given number is "<<power;
+ 
+}
+
+
+/*QUESTION NUMBBER 5 
 
