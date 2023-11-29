@@ -5,11 +5,11 @@ int main()
 {
   float person_Height, person_Weight, person_BMI;
  char gender;
- cout<<"enter your gender:";
+ cout<<"enter gender:";
  cin>>gender;
- cout<<"enter your height:";
+ cout<<"enter height:";
  cin>>person_Height;
- cout<<"enter your weight:";
+ cout<<"enter weight:";
  cin>>person_Weight;
  person_BMI= (person_Weight) / (person_Height*person_Height);
  cout<<"person gender:"<<gender<<endl;
