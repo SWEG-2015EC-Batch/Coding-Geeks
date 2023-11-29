@@ -2,18 +2,16 @@
 using namespace std;
 int main()
 {
-float Height, Weight, BMI;
-cout<<"enter your height (in meter):";
-cin>>Height;
-cout<<"enter your weight (in kg):";
-cin>>Weight;
-cout<<"enter gender";
+float person_Height, person_Weight, person_BMI;
+char gender;
+cout<<"enter your gender:";
 cin>>gender;
-
-BMI= (Weight) / (Height*Height);
-
-cout<<"your BMI is:"<<BMI;  
-    
-    return 0;
-
- }
+ cout<<"enter your height:";
+cin>>person_Height;
+cout<<"enter your weight:";
+cin>>person_Weight;
+person_BMI= (person_Weight) / (person_Height*person_Height);
+cout<<"persin gender:"<<gender<<endl;
+cout<<"your person_BMI is:"<<person_BMI;
+ return 0;
+}
