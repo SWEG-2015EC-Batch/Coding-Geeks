@@ -220,11 +220,11 @@ int main() {
                 break;
 
             case 0:
-                cout << "Exiting program. Goodbye!\n";
+                cout << "Exiting program.\n";
                 break;
 
             default:
-                cout << "Invalid choice. Please enter a valid option.\n";
+                cout << "Invalid choice. Enter a valid option.\n";
                 break;
         }
 
