@@ -1,7 +1,9 @@
 *problelm analysis
 
 1.Input: Gross_salary, workedhour, Incometax, Overtimebhour
+
 2.Output: Netsalary
+
 3.Operation:
 Intitiate Bonuspayment=0
 
