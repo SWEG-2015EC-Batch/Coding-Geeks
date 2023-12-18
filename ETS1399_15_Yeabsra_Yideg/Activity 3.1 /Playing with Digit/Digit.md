@@ -1,10 +1,10 @@
 *Problem analysis
 
-1.Input: choice,num
+Input: choice,num
 
-2.Output: menu and solution for each choice
+Output: menu and solution for each choice
 
-3.Operation:
+Operation:
 
 Do the following
 
