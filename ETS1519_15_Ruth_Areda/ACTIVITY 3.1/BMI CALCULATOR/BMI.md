@@ -6,7 +6,6 @@ Output:
 BMI value
 Process 
 BMI = weight / (height * height)
-
 Algorithm design in pseudocode:
 1,start
 2,read height,mass
