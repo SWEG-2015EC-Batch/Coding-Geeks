@@ -25,5 +25,6 @@ else if (mark >= 30) print "Mark Grade: D"
 else print "Mark Grade: F"
 Step3:stop
 2, FLOW CHART
-![Uploading image.png…]()
+
+![image](https://github.com/SWEG-2015EC-Batch/Coding-Geeks/assets/149189296/a6a463ba-b01e-47f2-84aa-80590fa3911e)
 
