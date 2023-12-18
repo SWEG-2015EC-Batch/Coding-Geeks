@@ -116,9 +116,148 @@ int main() {
     return 0;
 }
 //Find the frequency of each digit in a given integer and print in table format.
+#include <iostream>
+using namespace std;
 
+int main() {
+    int number;
+    cout << "Enter an integer: ";
+    cin >> number;
 
+    int freq[10] = {0}; // frequency array with 10 elements, all initialized to 0
 
+    while (number > 0) {
+        int digit = number % 10; // get the last digit of the number
+        freq[digit]++; // increment the frequency of the digit
+        number /= 10; // remove the last digit of the number
+    }
+
+    cout << "Frequency of each digit:" << endl;
+    cout << "Digit\tFrequency" << endl;
+
+    for (int i = 0; i < 10; i++) {
+        if (freq[i] > 0) {
+            cout << i << "\t" << freq[i] << endl;
+        }
+    }
+
+    return 0;
+}
+//Check if a number is Armstrong or not
+#include <iostream>
+#include <cmath>
+using namespace std;
+int countDigits(int number) {
+    int count = 0;
+    while (number != 0) {
+        number /= 10;
+        count++;
+    }
+    return count;
+}
+
+bool isArmstrong(int number) {
+    int originalNumber = number;
+    int numDigits = countDigits(number);
+    int sum = 0;
+
+    while (number != 0) {
+        int digit = number % 10;
+        sum += pow(digit, numDigits);
+        number /= 10;
+    }
+
+    return sum == originalNumber;
+}
+
+int main() {
+    int number;
+    cout<<"Enter a number: ";
+    cin >> number;
+    if (isArmstrong(number)) {
+    cout << number << " is an Armstrong number." <<endl;
+    } else {
+    cout << number << " is not an Armstrong number." <<endl;
+    }
+
+    return 0;
+}
+
+//Check if a number is Strong or not
+#include <iostream>
+
+using namespace std;
+
+int factorial(int num) {
+    int fact = 1;
+    for (int i = 1; i <= num; i++) {
+        fact *= i;
+    }
+    return fact;
+}
+
+bool isStrongNumber(int number) {
+    int sum = 0;
+    int num = number;
+
+    while (num != 0) {
+        int digit = num % 10;
+        sum += factorial(digit);
+        num /= 10;
+    }
+
+    if (sum == number) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (isStrongNumber(number)) {
+        cout << "The number " << number << " is a strong number." << endl;
+    } else {
+        cout << "The number " << number << " is not a strong number." << endl;
+    }
+
+    return 0;
+}
+//Check whether a number is Perfect number or not
+#include <iostream>
+using namespace std;
+
+bool isPerfectNumber(int number) {
+    int sum = 0;
+    for (int i = 1; i <= number / 2; i++) {
+        if (number % i == 0) {
+            sum += i;
+        }
+    }
+
+    if (sum == number) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (isPerfectNumber(number)) {
+        cout << "The number " << number << " is a perfect number." << endl;
+    } else {
+        cout << "The number " << number << " is not a perfect number." << endl;
+    }
+
+    return 0;
+}
 
 
 
