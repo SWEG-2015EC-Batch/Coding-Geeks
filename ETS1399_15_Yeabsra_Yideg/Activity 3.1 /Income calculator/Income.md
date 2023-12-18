@@ -1,4 +1,4 @@
-q*problelm analysis
+*problelm analysis
 
 1.Input: Gross_salary, workedhour, Incometax, Overtimebhour
 
