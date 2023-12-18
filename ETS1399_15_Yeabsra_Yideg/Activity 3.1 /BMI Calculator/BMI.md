@@ -20,5 +20,5 @@ Step 4: Print BMI
 
 Step 5: End
 
-2.Flowchart
+
 
