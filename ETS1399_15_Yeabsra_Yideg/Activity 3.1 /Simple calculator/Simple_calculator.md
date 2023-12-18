@@ -1,10 +1,10 @@
 *Problem analysis
 
-1.Input: operator(op),num1,num2
+Input: operator(op),num1,num2
 
-2.Output: result
+Output: result
 
-3.Operation:
+Operation:
 
 -Do for each while true
 
@@ -23,7 +23,7 @@
       Default error
 *Algorthim Design
 
-1.Pseudocode
+Pseudocode
 
 Step1:start
 
@@ -50,5 +50,5 @@ Step7:display result
 
 Step8:end
 
-2.Flowchart
+
 
