@@ -33,5 +33,4 @@ else print "The entered character is a special character." go to step 6
 
 Step6:end
 
-2.Flowchart
 
