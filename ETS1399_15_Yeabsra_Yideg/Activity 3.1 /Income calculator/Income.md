@@ -32,5 +32,4 @@ Step8:End
 2.Flowchart
 
 
-![image](https://t.me/c/2002879962/54/169)
-
+https://t.me/c/2002879962/54/169
