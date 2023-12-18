@@ -22,7 +22,7 @@ Step 3: Initialize letters array with 'a', 'b', 'c', 'd', 'e'.
 Step 4:For i = 0 to rows - 1 and for j = 0 to columns - 1, output letters j, " ", Output, newline character. 
 Step 5: End
 
- 
+ #number pattern in rectangular form
 Problem analysis 
 
 Input-no input. 
