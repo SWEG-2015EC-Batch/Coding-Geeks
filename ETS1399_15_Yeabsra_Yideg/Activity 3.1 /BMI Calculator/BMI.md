@@ -1,10 +1,10 @@
 *Analysis:
 
-1.Input (s): Weight, Height
+Input (s): Weight, Height
 
-2.Output(s): BMI
+Output(s): BMI
 
-3.Operation (s): BMI = Weight/(Height)^2
+Operation (s): BMI = Weight/(Height)^2
 
 *Algorthim Design 
 
