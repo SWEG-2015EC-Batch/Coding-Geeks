@@ -1,3 +1,7 @@
+problem analysis:
+input: operator (+, -, *, /),number1 and number2
+output:result
+  
 Algorithm in pseudocode:
 1. Start the program.
 2. Display a message to the user asking for the operator (+, -, *, /).
