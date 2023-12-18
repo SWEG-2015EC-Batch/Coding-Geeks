@@ -77,3 +77,42 @@ Step 2: Set rows = 6.
 Step 3: To print a new line, for i = rows to 1 (decrementing by 1): - For space = 1 to (rows - i), print " ". - For j = 1 to (2 * i - 1), Print "* ".
 
 Step 4: exit 
+#half pyramid
+
+Problem analysis 
+
+Input-no input. 
+
+Operation -using nested loops to print a pattern of asterisks in the shape of a right-angled triangle. 
+
+Output- a right-angled triangle made of asterisks.
+
+ 
+Pseudoc
+Full pyramidode 
+
+Step 1:start the program.
+
+Step 2: Set rows = 6,for i = 1 to rows& for j=1 to I.
+
+Step 3: to print a new line, - For j = 1 to I, Print "*". 
+
+Step 4:exit the program.
+#Full py4amied
+Input- no input. 
+
+Operation- It initializes the number of rows to 6. -using a loop to iterate through each row. Within each row, using two nested loops to print spaces and asterisks based on the row number and position. 
+
+Output- a pyramid pattern made of asterisks forming a pyramid shape.
+
+Pseudocode
+
+Step 1:start. 
+
+Step 2: Set rows = 6 and for i = 1 to rows. 
+
+Step 3: To print a new line use, - For space = 1 to rows - I, Print "".
+• For j = 1 to 2* i-1, Print "*".
+
+Step 4: Exit
+
