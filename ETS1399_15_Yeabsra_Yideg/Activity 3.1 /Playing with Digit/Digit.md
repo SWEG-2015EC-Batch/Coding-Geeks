@@ -252,5 +252,5 @@ If choice!=0 loop other wise go to step 14
 
 Step14:end
 
-2.Flowchart
+
 
