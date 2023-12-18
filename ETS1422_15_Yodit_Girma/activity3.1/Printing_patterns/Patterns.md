@@ -77,6 +77,8 @@ Step 2: Set rows = 6.
 Step 3: To print a new line, for i = rows to 1 (decrementing by 1): - For space = 1 to (rows - i), print " ". - For j = 1 to (2 * i - 1), Print "* ".
 
 Step 4: exit 
+
+
 #half pyramid
 
 Problem analysis 
@@ -87,8 +89,7 @@ Operation -using nested loops to print a pattern of asterisks in the shape of a 
 
 Output- a right-angled triangle made of asterisks.
 
- 
-Pseudoc
+Pseudocode
 Full pyramidode 
 
 Step 1:start the program.
@@ -98,6 +99,8 @@ Step 2: Set rows = 6,for i = 1 to rows& for j=1 to I.
 Step 3: to print a new line, - For j = 1 to I, Print "*". 
 
 Step 4:exit the program.
+
+
 #Full py4amied
 Input- no input. 
 
@@ -116,3 +119,55 @@ Step 3: To print a new line use, - For space = 1 to rows - I, Print "".
 
 Step 4: Exit
 
+
+#Number Pattern 10 -49 mnamn milew
+Problem analysis
+Input: no input
+
+Operation:
+
+-Initialize by setting a variable i to 10, which represents the starting number.
+
+-For each iteration of the loop, print the value of i followed by a space.
+
+-Check if i is the 10th number in the line or the last number. If true, move to the next line.
+
+-Increment the value of i by 1.
+
+-Repeat the loop until i reaches 50.
+
+Output: numbers from 10 to 49 in pattern
+
+Pseudocode
+Step1:start
+
+Step2: Initialize (set i=10)
+
+Step3:Loop(for (int i = 10; i <= 49; ++i))
+
+Step4: if (i is the 10th number in the line or i is the last number), move to next line
+
+Step5:Print i and “ ”
+
+Step6:end
+
+#Rectangular pattern *
+Problem analysis 
+
+Input- no input.
+
+Operation- using using nested loops to display a grid of stars. 
+
+Output- a grid of stars printed in a rectangular grid pattern.
+
+Pseudocode 
+
+step 1:start the program. 
+
+Step 2:set rows=4 and columns=6. 
+
+Step 3:For i from 1 to rows and for j from 1 to columns, output "* " 
+
+Step 4: Output a newline to move to the next row. 
+
+Step 5:end
