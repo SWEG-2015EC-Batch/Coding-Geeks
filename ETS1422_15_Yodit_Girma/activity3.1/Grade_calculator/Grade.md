@@ -25,4 +25,5 @@ else if (mark >= 30) print "Mark Grade: D"
 else print "Mark Grade: F"
 Step3:stop
 2, FLOW CHART
+![Uploading image.png…]()
 
