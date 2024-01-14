@@ -1,1 +1,40 @@
+#include <iostream>
+#include <string>
+#include <unordered_map>
 
+void findCharacterFrequency(const std::string& input) {
+    std::unordered_map<char, int> frequencyMap;
+
+    for (char c : input) {
+        frequencyMap[c]++;
+    }
+
+    char maxChar = '\0';
+    char minChar = '\0';
+    int maxFreq = 0;
+    int minFreq = input.length() + 1;
+
+    for (const auto& pair : frequencyMap) {
+        if (pair.second > maxFreq) {
+            maxChar = pair.first;
+            maxFreq = pair.second;
+        }
+        if (pair.second < minFreq) {
+            minChar = pair.first;
+            minFreq = pair.second;
+        }
+    }
+
+    std::cout << "Character with the largest frequency: " << maxChar << std::endl;
+    std::cout << "Character with the smallest frequency: " << minChar << std::endl;
+}
+
+int main() {
+    std::string input;
+    std::cout << "Enter a string: ";
+    std::getline(std::cin, input);
+
+    findCharacterFrequency(input);
+
+    return 0;
+}
