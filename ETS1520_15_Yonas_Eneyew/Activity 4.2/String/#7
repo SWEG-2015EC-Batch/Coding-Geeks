@@ -1,1 +1,28 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
 
+int main() {
+    std::vector<std::string> names;
+    std::string name;
+
+    std::cout << "Enter names (enter 'done' to finish):" << std::endl;
+
+    while (true) {
+        std::getline(std::cin, name);
+        if (name == "done") {
+            break;
+        }
+        names.push_back(name);
+    }
+
+    std::sort(names.begin(), names.end());
+
+    std::cout << "Names in alphabetical order:" << std::endl;
+    for (const std::string& n : names) {
+        std::cout << n << std::endl;
+    }
+
+    return 0;
+}
