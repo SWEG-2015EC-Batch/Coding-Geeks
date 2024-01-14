@@ -1,1 +1,17 @@
+#include <iostream>
+#include <cstring>
 
+int main() {
+    const int MAX_NAME_LENGTH = 100;
+    char favoriteProgram1[MAX_NAME_LENGTH] = "Game of Thrones";
+    char favoriteProgram2[MAX_NAME_LENGTH];
+
+    std::cout << "Enter the name of your second favorite television program: ";
+    std::cin.getline(favoriteProgram2, MAX_NAME_LENGTH);
+
+    std::cout << "Your favorite television programs are: " << std::endl;
+    std::cout << "1. " << favoriteProgram1 << std::endl;
+    std::cout << "2. " << favoriteProgram2 << std::endl;
+
+    return 0;
+}
