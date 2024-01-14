@@ -1,1 +1,19 @@
+#include <iostream>
+#include <cstring>
 
+int main() {
+    const int MAX_PASSWORD_LENGTH = 100;
+    char password[MAX_PASSWORD_LENGTH] = "password123";
+    char input[MAX_PASSWORD_LENGTH];
+
+    std::cout << "Enter the password: ";
+    std::cin.getline(input, MAX_PASSWORD_LENGTH);
+
+    if (std::strcmp(input, password) == 0) {
+        std::cout << "Correct password. Access granted." << std::endl;
+    } else {
+        std::cout << "Incorrect password. Access denied." << std::endl;
+    }
+
+    return 0;
+}
