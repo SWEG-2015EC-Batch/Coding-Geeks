@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include<iomanip>
 #include<cmath>
@@ -14,18 +15,18 @@ int main() {
     }
 
     for (int i = 0; i < number; i++) {
-        cout << "Enter" << i + 1 << "st person name: ";
+        cout << "Enter student_" << i + 1 << "'s  name: ";
         cin >> name[i];
         for (int j = 0; j < 3; j++) {
          
             if (j == 0)
             {
-                cout << "Enter height of "<<name[i]<<": ";
+                cout <<"Enter "<<name[i]<<"'s "<<"height: ";
                 cin >> arr[i][j];
 
             }
             else if (j == 1) {
-                cout << "Enter weight of " << name[i]<<": ";
+                cout << "Enter " <<name[i]<<"'s "<<"weight: ";
                 cin >> arr[i][j];
 
             }
@@ -49,4 +50,3 @@ int main() {
     delete[] name;
     return 0;
 }
-
