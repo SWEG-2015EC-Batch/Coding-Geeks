@@ -3,46 +3,28 @@ using namespace std;
 
 int main()
 {
-int row, column;
-
-    cout << "Enter the number of rows: ";
-    cin >> row;
-    cout << "Enter the number of columns: ";
-    cin >> column;
-    int first[row][column];
-    int second[row][column];
-    int sum[row][column];
-    cout << "Enter the data for the first array: " << endl;
-    for (int i = 0; i < row; i++)
+    int n;
+    cout<<"Enter the number of elements"<<endl;
+    cin>>n;
+    int first[n];
+    int second[n];
+    float sum;
+    cout<<"Enter first elements \n";
+    for(int i = 0;i<n;i++)
     {
-        for (int j = 0; j < column; j++)
-        {
-            cin >> first[i][j];
-        }
+ cin>>first[i];
     }
-    cout << "Enter the data for the second array: " << endl;
-    for (int i = 0; i < row; i++)
+      cout<<"Enter second elements \n";
+    for(int i = 0;i<n;i++)
     {
-        for (int j = 0; j < column; j++)
-        {
-            cin >> second[i][j];
-        }
+ cin>>second[i];
     }
-    for (int i = 0; i < row; i++)
+    cout<<endl;
+    cout<<"first"<<"\t"<<"second"<<"\t"<<"sum"<<endl;
+    for(int i = 0;i<n;i++)
     {
-        for (int j = 0; j < column; j++)
-        {
-            sum[i][j] = first[i][j] + second[i][j];
-        }
-    }
-    cout << "The sum of the two arrays is: " << endl;
-    for (int i = 0; i < row; i++)
-    {
-        for (int j = 0; j < column; j++)
-        {
-            cout << sum[i][j] << " ";
-        }
-        cout << endl;
+        sum = first[i]+second[i];
+        cout<<first[i]<<"\t"<<second[i]<<"\t"<<sum<<endl;
     }
 
     return 0;
