@@ -1,3 +1,12 @@
+//This C++ program manages student data for a specified number of students, 
+//allowing the user to input student IDs and answers to a set of questions. 
+//It calculates scores and grades based on the correctness of the answers, 
+//provides options to display all students' IDs, answers, scores, and grades, 
+//search for a student by ID, display all students' grades, and 
+//display the top-performing students based on their scores. 
+//The program utilizes arrays, loops, and conditional statements to handle multiple students' data and
+//interactions with the user efficiently.
+
 #include <iostream>
 #include <string>
 
