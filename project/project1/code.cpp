@@ -17,133 +17,128 @@ int main() {
     string studentAnswers[NUM_STUDENTS][NUM_QUESTIONS];
     int scores[NUM_STUDENTS];
     char grades[NUM_STUDENTS];
-
-
     int topstudent=2;
 
-
     int choice=1;
-   // do {
        label2:
-        if (choice==1) {
-        cout << "ENTER students id and answer to process\n";
-        //case 1:
-            //recive id and ansewer of the students
-                //recive id and ansewer of the students
-           for (int s=0;s<NUM_STUDENTS;s++){
+if (choice==1) {
+ cout << "ENTER students id and answer to process\n";
+//case 1:
+     //receive id and answer of the students
+    //receive id and ansewer of the students
+ for (int s=0;s<NUM_STUDENTS;s++){
 
-               cout<<"ENTER STUDENT ID :";
-               cin >> studentIDs[s];
-               cout<<"entered id of student "<<studentIDs[s]<<" answer."<<endl;
-                cout << "\n";
-               cout<<"ENTER ANSWER OF 10 T/F ,5 CHOICE AND 5, SHORT ANSEWER.............. "<<endl;
-               cout<<"...............ALL ANSEWER MUST BE IN SMALLCASE LETTER..................."<<endl;
-               for (int t=0;t<NUM_QUESTIONS;t++){
-               cout<<"enter the question "<<t+1<<" answer :";
-               cin>>studentAnswers[s][t]; //receive the answers s is id of student ,t is each answer of the student of id in s
+ cout<<"ENTER STUDENT ID :";
+ cin >> studentIDs[s];
+cout<<"entered id of student "<<studentIDs[s]<<" answer."<<endl;
+cout << "\n";
+cout<<"ENTER ANSWER OF 10 T/F ,5 CHOICE AND 5, SHORT ANSEWER.............. "<<endl;
+cout<<"...............ALL ANSEWER MUST BE IN SMALLCASE LETTER..................."<<endl;
+for (int t=0;t<NUM_QUESTIONS;t++){
+cout<<"enter the question "<<t+1<<" answer :";
+cin>>studentAnswers[s][t]; //receive the answers s is id of student ,t is each answer of the student of id in s
                }
             }
 
     // once Calculate scores and grades to use it every place in the program
-         for (int i = 0; i < NUM_STUDENTS; i++) {
-               scores[i] = 0; // Initialize score
-                for (int j = 0; j < NUM_QUESTIONS; j++) {
-                  if (studentAnswers[i][j] == correctAnswers[j]) {
-                      scores[i] += 2;}
-                   else  {
-                         scores[i] -= 1;
-                         }
+         
+for (int i = 0; i < NUM_STUDENTS; i++) {
+scores[i] = 0; // Initialize score
+for (int j = 0; j < NUM_QUESTIONS; j++) {
+  if (studentAnswers[i][j] == correctAnswers[j]) {
+        scores[i] += 2;}
+            else  {
+               scores[i] += 1;
+                      }
             }
         // Inline grade calculation
-        double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //change score to 100
-        if (percentage >= 90) grades[i] = 'A';
-        else if (percentage >= 80) grades[i] = 'B';
-        else if (percentage >= 70) grades[i] = 'C';
-        else if (percentage >= 60) grades[i] = 'D';
-        else grades[i] = 'F';
+double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //change score to 100
+  if (percentage >= 90) grades[i] = 'A';
+ else if (percentage >= 80) grades[i] = 'B';
+else if (percentage >= 70) grades[i] = 'C';
+else if (percentage >= 60) grades[i] = 'D';
+else grades[i] = 'F';
     }
     //after process it display the result of entered score because we didn't use break statement.this means it goes to case 2 to display all result
      goto label;
         }
    label:
-        cout << "\n"; //to have space above menu
-        cout << "\n";
-        cout << "...................Menu:.................\n";
-        cout << "ENETR 1. RE-ENTER students id and ansewer to process\n";
-        cout << "ENETR 2. Display all students' ID, ansewer, scores and grades\n";
-        cout << "ENETR 3. Search for a student by ID\n";
-        cout << "ENTER 4. Display all students' grades\n";
-        cout << "ENTER 5. Display TOP 5 students\n";
-        cout<<"ENTER 6. exist the program:";
-        cout << "Enter your choice: ";
-        cin >> choice;
-        cout << "\n";
+ cout << "\n"; //to have space above menu
+ cout << "\n";
+ cout << "...................Menu:.................\n";
+ cout << "ENETR 1. RE-ENTER students id and ansewer to process\n";
+ cout << "ENETR 2. Display all students' ID, ansewer, scores and grades\n";
+ cout << "ENETR 3. Search for a student by ID\n";
+ cout << "ENTER 4. Display all students' grades\n";
+ cout << "ENTER 5. Display TOP 5 students\n";
+ cout<<"ENTER 6. exist the program:";
+ cout << "Enter your choice: ";
+ cin >> choice;
+ cout << "\n";
 
 
 
-     if (choice==1)
-        goto label2;
+if (choice==1)
+ goto label2;
 
-
-       else if (choice==2){
+ else if (choice==2){
         //case 2:
 
-                // Display all students' scores and grades
-                for (int i = 0; i < NUM_STUDENTS; i++) {
-                    cout << "Student ID: " << studentIDs[i]<< endl;
-                    cout<<"   ANSEWER :";
-                    for (int k = 0; k < 20; k++){
-                       cout<<studentAnswers[i][k];
-                       cout<<",";
-                }     cout<<"   ";
+     // Display all students' scores and grades
+     for (int i = 0; i < NUM_STUDENTS; i++) {
+    cout << "Student ID: " << studentIDs[i]<< endl;
+         cout<<"   ANSEWER :";
+     for (int k = 0; k < 20; k++){
+    cout<<studentAnswers[i][k];
+          cout<<",";
+     }
+         cout<<"   ";
 
-                double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //change score of one student to 100 and desplay by loop
-                cout  << ", Score/100: " << percentage
-                      << ", Grade: " << grades[i] << endl;
+    double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //change score of one student to 100 and desplay by loop
+    cout  << ", Score/100: " << percentage
+      << ", Grade: " << grades[i] << endl;
                 }
-                goto label;
-                }//break;
+      goto label;
+        }//break;
 
-        else if (choice==3){
+      else if (choice==3){
         //case 3: {
-                // Search for a student by ID
-                string id;
-                cout << "Enter student ID to search: ";
-                cin >> id;
-                bool found = false;
-                for (int i = 0; i < NUM_STUDENTS; i++) {
-                    if (studentIDs[i] == id) { //if id match display iD
-                        cout << "Student ID: " << studentIDs[i];
+          // Search for a student by ID
+         string id;
+         cout << "Enter student ID to search: ";
+         cin >> id;
+         bool found = false;
+        for (int i = 0; i < NUM_STUDENTS; i++) {
+        if (studentIDs[i] == id) { //if id match display iD
+        cout << "Student ID: " << studentIDs[i];
 
-                        cout<<"   ANSEWER: ";
-                     for (int a = 0; a < 20; a++){ //DESPLAY THE ANSEWER BY LOOPING
-                       cout<<studentAnswers[i][a];
-                       cout<<",";
+        cout<<"   ANSEWER: ";
+        for (int a = 0; a < 20; a++){ //DESPLAY THE ANSEWER BY LOOPING
+          cout<<studentAnswers[i][a];
+             cout<<",";
                        }
 
-                    double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //DEPLAY SCORE
-                    cout << ", SCORE OUT OF 100: " << percentage
-                    << ", Grade: " << grades[i] << endl; //DISPLAY GRADE
-                        found = true;
-                        break;
+       double percentage = ((double)scores[i] / (2 * NUM_QUESTIONS)) * 100; //DEPLAY SCORE
+        cout << ", SCORE OUT OF 100: " << percentage
+         << ", Grade: " << grades[i] << endl; //DISPLAY GRADE
+        found = true;
+       break;
                     }
                 }
-                if (!found) { //IF ID NOT MATCH
+      if (!found) { //IF ID NOT MATCH
                     cout << "Student ID not found." << endl;
                 }
-                goto label;//break;
+       goto label;//break;
             }
 
 
-        else if (choice==4){
+    else if (choice==4){
        // case 4: {
                 // Display all students' grades
-
-                for (int i = 0; i < NUM_STUDENTS; i++) {
-                    cout << "Student ID: " << studentIDs[i]
-                         << ", Grade: " << grades[i] << endl;
+    for (int i = 0; i < NUM_STUDENTS; i++) {
+    cout << "Student ID: " << studentIDs[i]<< ", Grade: " << grades[i] << endl;
                 }
-               goto label;// break;
+          goto label;// break;
                 }
 
         else if (choice==5){
