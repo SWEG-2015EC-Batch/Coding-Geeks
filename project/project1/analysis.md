@@ -4,7 +4,9 @@ ANALYSIS OF THE PROGRAM
 Input:
 
 The program takes input in the form of:
+
  Test answers stored in a 1D array.
+ 
  Students' IDs and their test answers stored in a 2D array.
  
 Process:
