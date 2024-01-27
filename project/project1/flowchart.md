@@ -1,10 +1,15 @@
 Pseudocode
+
 Step 1:Define Constants and Variables
+
 Step 2: Repeat
+
  Step 3.   Process choice 1:
+ 
         Enter student IDs and answers
         Calculate scores and grades for each student
 Step 4. Display Menu
+
        Input choice
    If choice == 1
         Process choice 1
