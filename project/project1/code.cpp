@@ -14,13 +14,10 @@ using namespace std;
 
 const int NUM_QUESTIONS = 20;
 const int NUM_STUDENTS = 3; // this program is arranged for 3 students just for example but it can take more than 150 students data
-const int top = 2;
 
 
 int main() {
-    int l;
-     int top[l];
-   // double top[top];
+
     string correctAnswers[NUM_QUESTIONS] = {"true","true","true","true","true","true","true","true","true","true","a","b","c","a","d","subordinate","pessimism","optimism","marketing","absolutely"};
     string studentIDs[NUM_STUDENTS];
     string studentAnswers[NUM_STUDENTS][NUM_QUESTIONS];
@@ -50,7 +47,7 @@ cin>>studentAnswers[s][t]; //receive the answers s is id of student ,t is each a
             }
 
     // once Calculate scores and grades to use it every place in the program
-         
+
 for (int i = 0; i < NUM_STUDENTS; i++) {
 scores[i] = 0; // Initialize score
 for (int j = 0; j < NUM_QUESTIONS; j++) {
@@ -158,7 +155,7 @@ if (choice==1)
 
     for (int i = 0; i < NUM_STUDENTS; ++i) {
         int maxIndex = i;
-        for (int j = i + 1; j < 3; ++j) {
+        for (int j = i + 1; j < NUM_STUDENTS; ++j) {
             if (scores[j] > scores[maxIndex]) {
                 maxIndex = j;
             }
@@ -173,7 +170,7 @@ if (choice==1)
     }
 
     cout << "TOP STUDENTS "<<endl;
-    for (int i = 0; i < NUM_STUDENTS; i++) {
+    for (int i = 0; i < topstudent; i++) {//Adjust loop to iterate over 'topstudent'
     cout << "TOP: "<<i+1<<"  STUDENT ID: ";
     cout << studentIDs[top[i]];
     cout <<"  ";
